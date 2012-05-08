@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C220B3C81559CF5500896E06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C220B3C71559CF5500896E06 /* UIKit.framework */; };
+		C220B3CA1559CF5500896E06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C220B3C91559CF5500896E06 /* Foundation.framework */; };
+		C220B3CC1559CF5500896E06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C220B3CB1559CF5500896E06 /* CoreGraphics.framework */; };
+		C220B3D21559CF5500896E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C220B3D01559CF5500896E06 /* InfoPlist.strings */; };
+		C220B3D41559CF5500896E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C220B3D31559CF5500896E06 /* main.m */; };
+		C220B3D81559CF5500896E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C220B3D71559CF5500896E06 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C220B3C31559CF5500896E06 /* Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C220B3C71559CF5500896E06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C220B3C91559CF5500896E06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C220B3CB1559CF5500896E06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C220B3CF1559CF5500896E06 /* Contatos-Info.plist */ = {isa = PBXFileReference; path = "Contatos-Info.plist"; sourceTree = "<group>"; };
+		C220B3D11559CF5500896E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C220B3D31559CF5500896E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C220B3D51559CF5500896E06 /* Contatos-Prefix.pch */ = {isa = PBXFileReference; path = "Contatos-Prefix.pch"; sourceTree = "<group>"; };
+		C220B3D61559CF5500896E06 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C220B3D71559CF5500896E06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C220B3C01559CF5500896E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220B3C81559CF5500896E06 /* UIKit.framework in Frameworks */,
+				C220B3CA1559CF5500896E06 /* Foundation.framework in Frameworks */,
+				C220B3CC1559CF5500896E06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C220B3B81559CF5400896E06 = {
+			isa = PBXGroup;
+			children = (
+				C220B3CD1559CF5500896E06 /* Contatos */,
+				C220B3C61559CF5500896E06 /* Frameworks */,
+				C220B3C41559CF5500896E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C220B3C41559CF5500896E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C220B3C31559CF5500896E06 /* Contatos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C220B3C61559CF5500896E06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C220B3C71559CF5500896E06 /* UIKit.framework */,
+				C220B3C91559CF5500896E06 /* Foundation.framework */,
+				C220B3CB1559CF5500896E06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C220B3CD1559CF5500896E06 /* Contatos */ = {
+			isa = PBXGroup;
+			children = (
+				C220B3D61559CF5500896E06 /* AppDelegate.h */,
+				C220B3D71559CF5500896E06 /* AppDelegate.m */,
+				C220B3CE1559CF5500896E06 /* Supporting Files */,
+			);
+			path = Contatos;
+			sourceTree = "<group>";
+		};
+		C220B3CE1559CF5500896E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C220B3CF1559CF5500896E06 /* Contatos-Info.plist */,
+				C220B3D01559CF5500896E06 /* InfoPlist.strings */,
+				C220B3D31559CF5500896E06 /* main.m */,
+				C220B3D51559CF5500896E06 /* Contatos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C220B3C21559CF5500896E06 /* Contatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C220B3DB1559CF5500896E06 /* Build configuration list for PBXNativeTarget "Contatos" */;
+			buildPhases = (
+				C220B3BF1559CF5500896E06 /* Sources */,
+				C220B3C01559CF5500896E06 /* Frameworks */,
+				C220B3C11559CF5500896E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contatos;
+			productName = Contatos;
+			productReference = C220B3C31559CF5500896E06 /* Contatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C220B3BA1559CF5400896E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C220B3BD1559CF5400896E06 /* Build configuration list for PBXProject "Contatos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C220B3B81559CF5400896E06;
+			productRefGroup = C220B3C41559CF5500896E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C220B3C21559CF5500896E06 /* Contatos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C220B3C11559CF5500896E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220B3D21559CF5500896E06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C220B3BF1559CF5500896E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220B3D41559CF5500896E06 /* main.m in Sources */,
+				C220B3D81559CF5500896E06 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C220B3D01559CF5500896E06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C220B3D11559CF5500896E06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C220B3D91559CF5500896E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C220B3DA1559CF5500896E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C220B3DC1559CF5500896E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Contatos/Contatos-Prefix.pch";
+				INFOPLIST_FILE = "Contatos/Contatos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C220B3DD1559CF5500896E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Contatos/Contatos-Prefix.pch";
+				INFOPLIST_FILE = "Contatos/Contatos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C220B3BD1559CF5400896E06 /* Build configuration list for PBXProject "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220B3D91559CF5500896E06 /* Debug */,
+				C220B3DA1559CF5500896E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C220B3DB1559CF5500896E06 /* Build configuration list for PBXNativeTarget "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220B3DC1559CF5500896E06 /* Debug */,
+				C220B3DD1559CF5500896E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C220B3BA1559CF5400896E06 /* Project object */;
+}
