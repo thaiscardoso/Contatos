@@ -13,6 +13,9 @@
 		C220B3D21559CF5500896E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C220B3D01559CF5500896E06 /* InfoPlist.strings */; };
 		C220B3D41559CF5500896E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C220B3D31559CF5500896E06 /* main.m */; };
 		C220B3D81559CF5500896E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C220B3D71559CF5500896E06 /* AppDelegate.m */; };
+		C220B3E11559CF8800896E06 /* ListagemContatosController.m in Sources */ = {isa = PBXBuildFile; fileRef = C220B3DF1559CF8800896E06 /* ListagemContatosController.m */; };
+		C220B3E21559CF8800896E06 /* ListagemContatosController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C220B3E01559CF8800896E06 /* ListagemContatosController.xib */; };
+		C220B3E61559EC2600896E06 /* contatos.plist in Resources */ = {isa = PBXBuildFile; fileRef = C220B3E51559EC2600896E06 /* contatos.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,16 @@
 		C220B3C71559CF5500896E06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C220B3C91559CF5500896E06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C220B3CB1559CF5500896E06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C220B3CF1559CF5500896E06 /* Contatos-Info.plist */ = {isa = PBXFileReference; path = "Contatos-Info.plist"; sourceTree = "<group>"; };
+		C220B3CF1559CF5500896E06 /* Contatos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Contatos-Info.plist"; sourceTree = "<group>"; };
 		C220B3D11559CF5500896E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C220B3D31559CF5500896E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C220B3D51559CF5500896E06 /* Contatos-Prefix.pch */ = {isa = PBXFileReference; path = "Contatos-Prefix.pch"; sourceTree = "<group>"; };
-		C220B3D61559CF5500896E06 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C220B3D51559CF5500896E06 /* Contatos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contatos-Prefix.pch"; sourceTree = "<group>"; };
+		C220B3D61559CF5500896E06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C220B3D71559CF5500896E06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C220B3DE1559CF8800896E06 /* ListagemContatosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListagemContatosController.h; sourceTree = "<group>"; };
+		C220B3DF1559CF8800896E06 /* ListagemContatosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListagemContatosController.m; sourceTree = "<group>"; };
+		C220B3E01559CF8800896E06 /* ListagemContatosController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListagemContatosController.xib; sourceTree = "<group>"; };
+		C220B3E51559EC2600896E06 /* contatos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = contatos.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,9 @@
 			children = (
 				C220B3D61559CF5500896E06 /* AppDelegate.h */,
 				C220B3D71559CF5500896E06 /* AppDelegate.m */,
+				C220B3DE1559CF8800896E06 /* ListagemContatosController.h */,
+				C220B3DF1559CF8800896E06 /* ListagemContatosController.m */,
+				C220B3E01559CF8800896E06 /* ListagemContatosController.xib */,
 				C220B3CE1559CF5500896E06 /* Supporting Files */,
 			);
 			path = Contatos;
@@ -83,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C220B3CF1559CF5500896E06 /* Contatos-Info.plist */,
+				C220B3E51559EC2600896E06 /* contatos.plist */,
 				C220B3D01559CF5500896E06 /* InfoPlist.strings */,
 				C220B3D31559CF5500896E06 /* main.m */,
 				C220B3D51559CF5500896E06 /* Contatos-Prefix.pch */,
@@ -141,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C220B3D21559CF5500896E06 /* InfoPlist.strings in Resources */,
+				C220B3E21559CF8800896E06 /* ListagemContatosController.xib in Resources */,
+				C220B3E61559EC2600896E06 /* contatos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +166,7 @@
 			files = (
 				C220B3D41559CF5500896E06 /* main.m in Sources */,
 				C220B3D81559CF5500896E06 /* AppDelegate.m in Sources */,
+				C220B3E11559CF8800896E06 /* ListagemContatosController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

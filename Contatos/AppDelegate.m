@@ -7,8 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "ListagemContatosController.h"
+
+@interface AppDelegate(){
+    NSMutableArray *contatos;
+}
+
+@end
 
 @implementation AppDelegate
+@synthesize  navigationController =_navigationController;
 
 @synthesize window = _window;
 
@@ -17,9 +25,38 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    //CUSTOMIZADO - Begin
+    [self carregaDoPlist];
+    
+    //Instanciando
+    ListagemContatosController *listagemContatos = [[ListagemContatosController alloc] initWithNibName:@"ListagemContatosController" bundle:nil];
+    //Control de navegacao das telas
+    listagemContatos.contatos=contatos;
+    self.navigationController=[[UINavigationController alloc] initWithRootViewController:listagemContatos];
+    //setando o root
+    self.window.rootViewController = self.navigationController;
+    //CUSTOMIZADO - END 
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+//Criado por Thais
+-(void) carregaDoPlist{
+    NSString *caminho = [[NSBundle mainBundle] pathForResource:@"contatos" ofType:@"PList"];
+    NSMutableDictionary *arrayDeContatos = [[NSMutableDictionary alloc] initWithContentsOfFile:caminho];
+    contatos = [[NSMutableArray alloc] init ];
+    
+    for (NSString *key in arrayDeContatos){
+        NSDictionary *d = [arrayDeContatos objectForKey:key];
+    
+        //array para armazenar os contatos
+        [contatos addObject:[d objectForKey:@"nome"]];
+    
+    }
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
